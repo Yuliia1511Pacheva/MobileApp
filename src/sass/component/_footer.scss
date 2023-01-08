@@ -1,0 +1,37 @@
+.footer_container{
+    background-color: $bg-color;
+}
+
+.footer_title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.21;
+    color: $white-color;
+}
+
+.footer_subtitle{
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 1.21;
+   color: $white-color;
+}
+
+.footer_discr{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: $white-color;
+}
+
+.footer_list{
+    display: flex;
+    gap: 14px;
+
+}
+
+.footer_icon{
+    border-radius: 50%;
+    background: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
+}
+
