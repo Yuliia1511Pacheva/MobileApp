@@ -72,9 +72,10 @@ footer{
     fill:$bg-color;
     stroke:  rgba(0, 197, 235, 1) ;
     background-color: $bg-color;
-    outline: 1px solid rgba(0, 197, 235, 1)  ;
+    border-color: rgba(0, 197, 235, 1) rgba(181, 68, 254, 1);
+    border-width: 1px;
+    border-style: solid;
 }
-
 
 .address{
    
@@ -153,6 +154,7 @@ footer{
 }
 
 .button{
+    position: relative;
     padding: 11px 59px 12px 59px;
     width: 181px;
     height: 42px;
@@ -170,8 +172,9 @@ footer{
 
 .button:hover{
     background: $bg-color;
-    outline: 1px solid  rgba(0, 197, 235, 1);
-    // border: linear rgba(0, 197, 235, 1) rgba(181, 68, 254, 1);
+    border-color: rgba(0, 197, 235, 1) rgba(181, 68, 254, 1);
+    border-width: 1px;
+    border-style: solid;
     
    
 }
