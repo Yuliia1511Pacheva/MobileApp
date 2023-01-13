@@ -67,12 +67,13 @@ footer{
 
 }
 
+
 .icon__link:hover,
 .icon__item:hover {
     fill:$bg-color;
-    stroke:  rgba(0, 197, 235, 1) ;
+    stroke:  rgba(181, 68, 254, 1) ;
     background-color: $bg-color;
-    border-color: rgba(0, 197, 235, 1) rgba(181, 68, 254, 1);
+    border-color: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
     border-width: 1px;
     border-style: solid;
 }
@@ -156,7 +157,7 @@ footer{
 .button{
     position: relative;
     padding: 11px 59px 12px 59px;
-    width: 181px;
+    min-width: 181px;
     height: 42px;
     font-weight: 700;
     font-size: 16px;
@@ -164,17 +165,23 @@ footer{
     color: $white-color;
     background: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
     border-radius: 5px;
-    border: transparent;
+    border: 1px solid transparent;
     cursor: pointer;
     margin-bottom: 79px;
+    // border-image: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
+    // border-image-slice: 1;
 }
 
 
 .button:hover{
+    border-radius: 5px;
     background: $bg-color;
-    border-color: rgba(0, 197, 235, 1) rgba(181, 68, 254, 1);
-    border-width: 1px;
-    border-style: solid;
+    // border-color: rgba(0, 197, 235, 1) rgba(181, 68, 254, 1);
+    // border-width: 1px;
+    // border-style: solid;
+    border-image: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
+    border-image-slice: 1;
+    
     
    
 }
