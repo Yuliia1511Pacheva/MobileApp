@@ -80,4 +80,10 @@
     height: 42px;
     padding: 11px 60px;
     cursor: pointer;
+
+    &:hover,
+        &:focus {
+            background: rgba(6, 7, 27, 1);
+            border: 1px solid ;
+        }
 }
