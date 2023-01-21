@@ -4,12 +4,33 @@ header{
 }
 
 .header-nav{
+    
     background: linear-gradient(90.03deg, rgba(0, 197, 235, 0.3) -1.97%, rgba(181, 68, 254, 0.3) 89.43%);
     backdrop-filter: blur(17.5px);
     margin-top: 26px;
     height: 72px;
     transform: translateY(26px);
+   
 }
+
+ 
+   
+    @media screen and (max-width: 767px) {
+     .nav {
+        display: none;
+                }
+    }
+@media screen and (min-width: 768px){
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+
+    }
+}
+
+ 
 .logo{
    font-style: normal;
    font-weight: 400;
@@ -24,10 +45,10 @@ header{
 }
 
 .nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    // padding-top: 10px;
 }
 .item-header{
     font-style: normal;
@@ -35,4 +56,19 @@ header{
     font-size: 12px;
     line-height: 1.25;  
     color: $white-color;
+}
+
+.mobile-menu{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: white;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    @media screen and (min-width: 768px)
+{ display: none;
+        
+    }
 }
