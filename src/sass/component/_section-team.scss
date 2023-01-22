@@ -4,8 +4,6 @@
 
 .background-team::before{
     content: " " ;
-    // width: 100vw;
-    // height: 100vh;
     background: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
     position: absolute;
     z-index: 0;
@@ -15,10 +13,8 @@
     top: 2898.34px;
 
     filter: blur(110.5px);
-    transform: rotate(-15.79deg);
+    transform: rotate(-15.79deg
     display: block;
-    padding-left: 40px;
-    padding-bottom: 40px;
     }
 
 .section-text{
