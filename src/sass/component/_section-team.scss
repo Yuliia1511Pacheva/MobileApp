@@ -9,19 +9,14 @@
     background: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
     position: absolute;
     z-index: 0;
-    width: 185px;
-    height: 400px;
+    max-width: 185px;
+    height: 100%;
     left: 81px;
     top: 2898.34px;
 
     filter: blur(110.5px);
     transform: rotate(-15.79deg);
     display: block;   
-        
-
-
-
-    
     }
 
 .section-text{
@@ -47,13 +42,13 @@
     z-index: 999;
     @media screen and (min-width: 768px) {
         display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    justify-content: center;
+        flex-wrap: wrap;
+        gap: 32px;
+        justify-content: center;
     }
-    @media screen and (min-width: 1200px) {
+      @media screen and (min-width: 1200px) {
         display: flex;
-    flex-wrap: nowrap;
+        flex-wrap: nowrap;
     }
 
 }
